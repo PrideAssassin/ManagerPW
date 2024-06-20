@@ -1,0 +1,131 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'search1.ui'
+##
+## Created by: Qt User Interface Compiler version 5.15.2
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide2.QtCore import *
+from PySide2.QtGui import *
+from PySide2.QtWidgets import *
+
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        if not MainWindow.objectName():
+            MainWindow.setObjectName(u"MainWindow")
+        MainWindow.setWindowModality(Qt.NonModal)
+        MainWindow.resize(616, 493)
+        MainWindow.setMinimumSize(QSize(616, 493))
+        MainWindow.setMaximumSize(QSize(620, 520))
+        font = QFont()
+        font.setFamily(u"\u5fae\u8f6f\u96c5\u9ed1")
+        font.setPointSize(12)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
+        MainWindow.setFont(font)
+        MainWindow.setStyleSheet(u"color:black;")
+        self.centralwidget = QWidget(MainWindow)
+        self.centralwidget.setObjectName(u"centralwidget")
+        self.label = QLabel(self.centralwidget)
+        self.label.setObjectName(u"label")
+        self.label.setGeometry(QRect(10, 20, 51, 41))
+        self.lineEdit = QLineEdit(self.centralwidget)
+        self.lineEdit.setObjectName(u"lineEdit")
+        self.lineEdit.setGeometry(QRect(70, 20, 421, 31))
+        self.pushButton = QPushButton(self.centralwidget)
+        self.pushButton.setObjectName(u"pushButton")
+        self.pushButton.setGeometry(QRect(500, 20, 101, 31))
+        self.label_4 = QLabel(self.centralwidget)
+        self.label_4.setObjectName(u"label_4")
+        self.label_4.setGeometry(QRect(10, 220, 71, 41))
+        self.label_5 = QLabel(self.centralwidget)
+        self.label_5.setObjectName(u"label_5")
+        self.label_5.setGeometry(QRect(350, 60, 71, 31))
+        self.textEdit = QTextEdit(self.centralwidget)
+        self.textEdit.setObjectName(u"textEdit")
+        self.textEdit.setGeometry(QRect(330, 90, 281, 121))
+        self.textEdit.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOn)
+        self.textEdit.setReadOnly(True)
+        self.pushButton_2 = QPushButton(self.centralwidget)
+        self.pushButton_2.setObjectName(u"pushButton_2")
+        self.pushButton_2.setGeometry(QRect(10, 430, 101, 41))
+        self.pushButton_3 = QPushButton(self.centralwidget)
+        self.pushButton_3.setObjectName(u"pushButton_3")
+        self.pushButton_3.setGeometry(QRect(290, 220, 81, 41))
+        self.pushButton_4 = QPushButton(self.centralwidget)
+        self.pushButton_4.setObjectName(u"pushButton_4")
+        self.pushButton_4.setGeometry(QRect(400, 220, 101, 41))
+        self.pushButton_5 = QPushButton(self.centralwidget)
+        self.pushButton_5.setObjectName(u"pushButton_5")
+        self.pushButton_5.setGeometry(QRect(520, 220, 91, 41))
+        self.label_6 = QLabel(self.centralwidget)
+        self.label_6.setObjectName(u"label_6")
+        self.label_6.setGeometry(QRect(10, 90, 61, 41))
+        self.lineEdit_3 = QLineEdit(self.centralwidget)
+        self.lineEdit_3.setObjectName(u"lineEdit_3")
+        self.lineEdit_3.setGeometry(QRect(80, 90, 231, 31))
+        self.lineEdit_3.setEchoMode(QLineEdit.Normal)
+        self.lineEdit_3.setReadOnly(True)
+        self.label_7 = QLabel(self.centralwidget)
+        self.label_7.setObjectName(u"label_7")
+        self.label_7.setGeometry(QRect(10, 130, 41, 41))
+        self.lineEdit_2 = QLineEdit(self.centralwidget)
+        self.lineEdit_2.setObjectName(u"lineEdit_2")
+        self.lineEdit_2.setGeometry(QRect(80, 130, 231, 31))
+        self.lineEdit_2.setEchoMode(QLineEdit.Normal)
+        self.lineEdit_2.setReadOnly(True)
+        self.label_8 = QLabel(self.centralwidget)
+        self.label_8.setObjectName(u"label_8")
+        self.label_8.setGeometry(QRect(10, 180, 41, 41))
+        self.lineEdit_4 = QLineEdit(self.centralwidget)
+        self.lineEdit_4.setObjectName(u"lineEdit_4")
+        self.lineEdit_4.setGeometry(QRect(80, 180, 231, 31))
+        self.lineEdit_4.setEchoMode(QLineEdit.Password)
+        self.lineEdit_4.setReadOnly(True)
+        self.pushButton_6 = QPushButton(self.centralwidget)
+        self.pushButton_6.setObjectName(u"pushButton_6")
+        self.pushButton_6.setGeometry(QRect(490, 430, 121, 41))
+        self.listWidget = QListWidget(self.centralwidget)
+        self.listWidget.setObjectName(u"listWidget")
+        self.listWidget.setGeometry(QRect(10, 270, 601, 151))
+        self.pushButton_7 = QPushButton(self.centralwidget)
+        self.pushButton_7.setObjectName(u"pushButton_7")
+        self.pushButton_7.setGeometry(QRect(230, 430, 141, 41))
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QMenuBar(MainWindow)
+        self.menubar.setObjectName(u"menubar")
+        self.menubar.setGeometry(QRect(0, 0, 616, 23))
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QStatusBar(MainWindow)
+        self.statusbar.setObjectName(u"statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+
+        QMetaObject.connectSlotsByName(MainWindow)
+    # setupUi
+
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"\u5bc6\u7801\u7ba1\u7406\u5668v1.0                   Author\uff1aPrideAssassin", None))
+        self.label.setText(QCoreApplication.translate("MainWindow", u"\u641c\u7d22\uff1a", None))
+        self.pushButton.setText(QCoreApplication.translate("MainWindow", u"\u5feb\u901f\u67e5\u627e\u5bc6\u7801", None))
+        self.label_4.setText(QCoreApplication.translate("MainWindow", u"\u641c\u7d20\u8bb0\u5f55\uff1a", None))
+        self.label_5.setText(QCoreApplication.translate("MainWindow", u"\u5907\u6ce8\u4fe1\u606f\uff1a", None))
+        self.pushButton_2.setText(QCoreApplication.translate("MainWindow", u"\u67e5\u770b\u5bc6\u7801", None))
+        self.pushButton_3.setText(QCoreApplication.translate("MainWindow", u"\u589e\u52a0\u8bb0\u5f55", None))
+        self.pushButton_4.setText(QCoreApplication.translate("MainWindow", u"\u4fee\u6539\u8bb0\u5f55", None))
+        self.pushButton_5.setText(QCoreApplication.translate("MainWindow", u"\u5220\u9664\u8bb0\u5f55", None))
+        self.label_6.setText(QCoreApplication.translate("MainWindow", u"\u6807\u9898\u4fe1\u606f\uff1a", None))
+        self.lineEdit_3.setInputMask("")
+        self.lineEdit_3.setText("")
+        self.label_7.setText(QCoreApplication.translate("MainWindow", u"\u8d26\u53f7\uff1a", None))
+        self.label_8.setText(QCoreApplication.translate("MainWindow", u"\u5bc6\u7801\uff1a", None))
+        self.pushButton_6.setText(QCoreApplication.translate("MainWindow", u"\u786e\u5b9a", None))
+        self.pushButton_7.setText(QCoreApplication.translate("MainWindow", u"\u4fee\u6539\u6587\u4ef6\u52a0\u5bc6\u5bc6\u7801", None))
+    # retranslateUi
+
